@@ -1,0 +1,7 @@
+# Test fixtures and coverage
+tests/coverage/
+tests/results/
+.playwright/
+
+# Audit and report files
+*.audit
