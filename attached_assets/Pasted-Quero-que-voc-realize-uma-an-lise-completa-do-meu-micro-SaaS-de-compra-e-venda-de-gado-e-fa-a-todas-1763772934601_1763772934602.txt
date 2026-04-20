@@ -1,0 +1,239 @@
+Quero que você realize uma análise completa do meu micro SaaS de compra e venda de gado e faça todas as melhorias necessárias, incluindo funcionalidades que estejam faltando e otimizações que você identificar. Não reescreva tudo do zero — apenas melhore e evolua o sistema atual de forma inteligente. Siga exatamente as instruções abaixo:
+
+1. Auditoria completa do sistema
+
+Analise profundamente todo o projeto:
+
+frontend
+
+backend
+
+banco de dados
+
+rotas
+
+APIs
+
+formulários
+
+páginas
+
+lógica de autenticação
+
+carregamento de imagens
+
+responsividade
+
+segurança
+
+UX/UI
+
+desempenho
+
+planos de assinatura
+
+filtros
+
+componentes reutilizáveis
+
+E detecte:
+
+falhas silenciosas
+
+erros bobos
+
+partes incompletas
+
+componentes mal estruturados
+
+duplicações
+
+código morto
+
+funções quebradas
+
+validações não implementadas
+
+dados não salvos
+
+inconsistências entre front e API
+
+Corrija tudo automaticamente.
+
+2. Adicione qualquer funcionalidade que esteja faltando
+
+Se durante a análise você identificar:
+
+telas incompletas,
+
+validações faltando,
+
+partes do fluxo mal finalizadas,
+
+lógicas pela metade,
+
+inconsistências,
+
+campos necessários não implementados,
+
+integração incompleta entre front e back,
+
+comportamentos inesperados,
+
+pontos que prejudicam a experiência do usuário,
+
+implemente imediatamente sem pedir confirmação.
+
+3. Melhore UX/UI em todos os pontos críticos
+
+O objetivo é deixar o SaaS mais profissional. Melhore:
+
+formulários (claros, curtos, organizados)
+
+mensagens de erro
+
+validações instantâneas
+
+feedback visual
+
+fluxo de criação de anúncio
+
+upload de fotos
+
+layout no mobile
+
+botões, inputs, espaçamento, hierarquia visual
+
+loading states
+
+toasts de sucesso e erro
+
+Se encontrar algo feio, confuso ou difícil de usar, melhore automaticamente.
+
+4. Otimize o backend
+
+Realize:
+
+limpeza de código
+
+normalização das tabelas
+
+checks de segurança
+
+padronização de respostas
+
+rotas mais organizadas
+
+middlewares bem definidos
+
+tratamento de erros mais robusto
+
+proteção contra dados inválidos
+
+refatoração de lógica repetida
+
+Melhore a arquitetura como achar necessário.
+
+5. Melhore o banco de dados
+
+Analise as tabelas e:
+
+corrija relacionamentos
+
+otimize campos
+
+adicione índices se necessários
+
+reorganize para performance
+
+remova campos inúteis
+
+padronize nomes e tipos
+
+garanta consistência referencial
+
+Se faltar alguma coluna importante, adicione.
+
+6. Inteligência automática nas melhorias
+
+Se você identificar alguma funcionalidade que deixe o sistema mais completo, como:
+
+filtros avançados
+
+melhor painel do vendedor
+
+melhor listagem de anúncios
+
+páginas mais organizadas
+
+segurança extra
+
+API para relatórios
+
+melhorias em performance
+
+componentes refatorados
+
+Implemente por conta própria, sem esperar instruções.
+
+7. Padronização e organização
+
+Ajuste automaticamente:
+
+pastas
+
+nomes de arquivos
+
+imports
+
+lint
+
+formatação
+
+comentários
+
+estrutura de componentes
+
+padrões REST
+
+padrões de estilo
+
+reaproveitamento de código
+
+O objetivo é deixar o código limpo e profissional.
+
+8. Compatibilidade total com futuras expansões
+
+Prepare tudo para:
+
+novas funções de IA
+
+novos planos
+
+nova tabela de cotações
+
+novos tipos de animais
+
+módulos internacionais
+
+novas integrações com GPS
+
+Se necessário, modularize componentes ou rotas.
+
+9. No final, gere:
+
+lista completa de todas as melhorias feitas
+
+arquivos alterados
+
+resumo da arquitetura final
+
+explicação do que foi corrigido
+
+pontos que foram otimizados
+
+como testar cada melhoria
+
+recomendações futuras
+
+Execute todas essas melhorias e correções diretamente no meu projeto atual, sem sobrescrever partes essenciais e mantendo toda compatibilidade.

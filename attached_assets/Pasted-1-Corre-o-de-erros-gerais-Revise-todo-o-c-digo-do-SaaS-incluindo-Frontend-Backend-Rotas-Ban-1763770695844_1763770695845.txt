@@ -1,0 +1,177 @@
+1. Correção de erros gerais
+
+Revise todo o código do SaaS, incluindo:
+
+Frontend
+
+Backend
+
+Rotas
+
+Banco de dados
+
+APIs
+
+Hooks
+
+Componentes
+
+Telas
+
+Sistema de criação de anúncio
+
+Upload de fotos
+
+Sistema de localização
+
+Planos de assinatura
+
+Procure e corrija:
+
+Erros bobos
+
+Erros de fluxo
+
+Typos
+
+Falha de validação
+
+Erros em formulários
+
+Campos faltando
+
+Erros de importação
+
+Problemas de responsividade
+
+Erros lógicos simples
+
+Falhas que impeçam publicar anúncio
+
+Otimize o código para clareza, organização, responsividade e velocidade.
+
+2. Adicionar TODOS os estados do Brasil
+
+Adicione no sistema:
+
+A lista completa dos 26 estados + DF
+
+Nome + sigla
+
+Separação por regiões (Norte, Nordeste, Centro-Oeste, Sudeste, Sul)
+
+Validação para selecionar corretamente estado/cidade
+
+Atualização de qualquer componente, dropdown ou filtro que utilize estados
+
+O sistema deve permitir:
+
+Filtrar anúncios por estado
+
+Buscar vendedores por estado
+
+Mostrar anúncios dentro de cada estado
+
+Integrar isso aos planos (Free = cidade, Plus = estado, Premium = país)
+
+3. Adicionar GPS e geolocalização real
+
+Implemente geolocalização por GPS usando:
+
+Navigator.geolocation (se for web)
+
+API de geocoding reverso
+
+Coordenadas reais (lat e long)
+
+Endpoint para registrar localização do vendedor
+
+Endpoint para filtrar anúncios por distância
+
+Exemplo do que quero:
+
+O usuário pode clicar em “Usar minha localização”
+
+O sistema captura coordenadas
+
+O backend salva latitude/longitude
+
+Anúncios são ordenados por proximidade
+
+Mostrar distância (ex: 12 km, 40 km, 130 km)
+
+A geolocalização deve ser opcional, mas incentivada.
+
+4. Buscar compradores e vendedores próximos
+
+Adicione um sistema de proximidade com:
+
+Busca por raio (5 km, 10 km, 50 km, 100 km)
+
+Filtro por tipo de animal (novilha, bezerras, bezerro, garrote, vaca gorda, vaca magra, touro)
+
+Mapa para visualizar vendedores próximos
+
+Ordenação por distância
+
+O sistema deve:
+
+Ajudar compradores a encontrar anúncios perto deles
+
+Mostrar vendedores mais próximos primeiro
+
+Integrar com o GPS do usuário
+
+Permitir filtrar por estado + cidade + raio
+
+5. Garantir compatibilidade com os planos
+
+Reforce regras:
+
+Plano Free → anúncios e visualização apenas na cidade
+
+Plano Plus → anúncios e visualização liberados no estado inteiro
+
+Plano Premium → Brasil inteiro e internacional
+
+O filtro de localização deve respeitar essas regras automaticamente.
+
+6. Testes e validação
+
+Gerar testes automáticos para:
+
+Sistema de anúncios
+
+Upload de imagens
+
+GPS
+
+Filtros de localização
+
+Seleção de estados
+
+Funcionamento dos planos
+
+Banco de dados
+
+APIs de listagem
+
+Corrigir qualquer erro identificado.
+
+7. Finalização
+
+Entregue:
+
+Código corrigido e otimizado
+
+Lista de mudanças aplicadas
+
+Lista de arquivos alterados
+
+Melhorias no layout da página de “Criar Anúncio”
+
+Melhorias no fluxo de publicações
+
+Explicação de como funciona a geolocalização
+
+Explicação de como atualizar estados ou cidades no futuro

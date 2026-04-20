@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /auth
+Disallow: /register
+Disallow: /chat
+Disallow: /api
+
+Sitemap: https://boinarede.replit.dev/sitemap.xml

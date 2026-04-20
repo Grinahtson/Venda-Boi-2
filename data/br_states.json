@@ -1,0 +1,31 @@
+{
+  "states": [
+    { "code": "AC", "name": "Acre", "region": "North" },
+    { "code": "AL", "name": "Alagoas", "region": "Northeast" },
+    { "code": "AP", "name": "Amapá", "region": "North" },
+    { "code": "AM", "name": "Amazonas", "region": "North" },
+    { "code": "BA", "name": "Bahia", "region": "Northeast" },
+    { "code": "CE", "name": "Ceará", "region": "Northeast" },
+    { "code": "DF", "name": "Distrito Federal", "region": "Center-West" },
+    { "code": "ES", "name": "Espírito Santo", "region": "Southeast" },
+    { "code": "GO", "name": "Goiás", "region": "Center-West" },
+    { "code": "MA", "name": "Maranhão", "region": "Northeast" },
+    { "code": "MT", "name": "Mato Grosso", "region": "Center-West" },
+    { "code": "MS", "name": "Mato Grosso do Sul", "region": "Center-West" },
+    { "code": "MG", "name": "Minas Gerais", "region": "Southeast" },
+    { "code": "PA", "name": "Pará", "region": "North" },
+    { "code": "PB", "name": "Paraíba", "region": "Northeast" },
+    { "code": "PR", "name": "Paraná", "region": "South" },
+    { "code": "PE", "name": "Pernambuco", "region": "Northeast" },
+    { "code": "PI", "name": "Piauí", "region": "Northeast" },
+    { "code": "RJ", "name": "Rio de Janeiro", "region": "Southeast" },
+    { "code": "RN", "name": "Rio Grande do Norte", "region": "Northeast" },
+    { "code": "RS", "name": "Rio Grande do Sul", "region": "South" },
+    { "code": "RO", "name": "Rondônia", "region": "North" },
+    { "code": "RR", "name": "Roraima", "region": "North" },
+    { "code": "SC", "name": "Santa Catarina", "region": "South" },
+    { "code": "SP", "name": "São Paulo", "region": "Southeast" },
+    { "code": "SE", "name": "Sergipe", "region": "Northeast" },
+    { "code": "TO", "name": "Tocantins", "region": "North" }
+  ]
+}

@@ -1,0 +1,287 @@
+Quero que você gere um micro SaaS completo chamado “BovinoMarket”, focado na compra e venda de gado. O sistema deve ser simples, rápido e fácil de usar, com interface moderna e intuitiva. Gere toda a aplicação: design, telas, banco de dados, backend, frontend, APIs e lógica completa. Siga tudo abaixo SEM resumir nada:
+
+📌 1. Funcionalidade principal
+
+Criar um marketplace onde fazendeiros podem anunciar e comprar animais.
+As categorias obrigatórias são:
+
+Novilhas
+
+Bezerras
+
+Bezerros
+
+Garrotes
+
+Vacas gordas
+
+Vacas magras
+
+Touros
+
+O vendedor deve poder:
+
+Criar anúncio rapidamente
+
+Enviar fotos dos animais (mínimo 3 / máximo 10)
+
+Inserir localização exata da fazenda (cidade + estado + país)
+
+Inserir telefone / WhatsApp
+
+Informar:
+
+Peso do animal
+
+Quantidade
+
+Preço por cabeça
+
+Preço por arroba (opcional)
+
+Observações
+
+📌 2. Planos de assinatura
+
+O SaaS deve ter três planos, cada um com regras de alcance geográfico:
+
+🟦 Plano Free
+
+Até 10 fazendeiros ativos vendendo
+
+Visualização e venda limitada apenas ao município / cidade
+
+🟩 Plano Plus
+
+Libera acesso e vendas para todo o estado
+
+🟧 Plano Premium
+
+Acesso ao Brasil inteiro e internacional, liberando conexão com compradores/vendedores de outros países
+
+Liberar geolocalização global e filtros avançados
+
+Implementar:
+
+Controle automático de limites
+
+Paywall
+
+API de pagamento (Stripe, Mercado Pago ou similar)
+
+Área do usuário com upgrade/downgrade de plano
+
+📌 3. Cotação dos frigoríficos e preços das arrobas
+
+Integrar no sistema:
+
+Cotação atualizada dos frigoríficos do Brasil por estado
+
+Cotação da arroba do dia
+
+Cotação média de compra e venda de cada tipo de animal
+
+Atualização via API externa (se não houver API, criar sistema para inserir cotações manualmente)
+
+Mostrar no painel:
+
+Tabela atualizada
+
+Filtros por estado
+
+Histórico (gráfico simples)
+
+📌 4. IA para cálculo do lucro
+
+Criar uma IA integrada ao sistema para calcular automaticamente:
+
+Entrada:
+
+Peso médio do animal
+
+Quantidade
+
+Preço de compra
+
+Preço de venda atual
+
+Cotação da arroba do dia
+
+Saída da IA:
+
+Lucro total e lucro por animal
+
+Valor da arroba real convertido
+
+Margem (%)
+
+Comparação com cotações dos frigoríficos
+
+Sinal verde, amarelo ou vermelho indicando se o negócio é bom
+
+A IA deve aparecer:
+
+Na página do anúncio
+
+No painel do vendedor
+
+Em uma ferramenta exclusiva chamada “Calculadora Inteligente de Lucro”
+
+📌 5. Painel do vendedor
+
+Incluir:
+
+Cadastro de animais
+
+Lista de anúncios
+
+Estatísticas
+
+Cotações do dia
+
+IA de lucro
+
+Gerenciamento do plano
+
+Dados pessoais
+
+Notificações
+
+Chat simples entre comprador e vendedor
+
+📌 6. Funcionalidades essenciais
+✔ Autenticação:
+
+Login
+
+Cadastro
+
+Recuperar senha
+
+Conta Google ou Apple (opcional)
+
+✔ Banco de dados:
+
+Criar tabelas para:
+
+Usuários
+
+Planos
+
+Anúncios
+
+Fotos
+
+Localizações
+
+Conversas
+
+Cotações
+
+Histórico de preços
+
+Logs
+
+✔ Segurança:
+
+Anti-spam
+
+Anti-fraude
+
+Limite por plano
+
+Validação de contato e localização
+
+📌 7. Interface
+
+Crie uma interface clean, intuitiva, moderna, estilo:
+
+Tailwind
+
+Ou Material UI
+
+Ou Bootstrap moderno
+
+Telas obrigatórias:
+
+Home com busca
+
+Listagem de animais
+
+Tela do anúncio
+
+Criar anúncio
+
+Painel do vendedor
+
+Calculadora inteligente
+
+Página de planos e preços
+
+Configurações da conta
+
+📌 8. Requisitos técnicos
+
+Use qualquer stack moderna, por exemplo:
+
+Frontend: React, Next.js, Vue ou similar
+Backend: Node.js / NestJS / Python / Supabase / Firebase
+Banco: Supabase ou PostgreSQL
+Pagamentos: Stripe ou Mercado Pago
+Mapas: Leaflet, Google Maps ou OpenStreetMap
+
+A aplicação final deve vir:
+
+Com APIs funcionando
+
+Com documentação clara
+
+Com deploy configurado
+
+Com seed inicial no banco
+
+Com arquivos limpos e organizados
+
+Com responsividade total
+
+📌 9. Entregáveis obrigatórios
+
+A IA deve gerar:
+
+Código completo do SaaS
+
+Estrutura de pastas
+
+Instruções de deploy
+
+Instruções de instalação
+
+Arquitetura explicada
+
+Telas prontas
+
+Banco configurado
+
+APIs implementadas
+
+Painel funcional
+
+Sistema de IA configurado
+
+📌 10. Finalização
+
+No final, gere:
+
+Todo o código
+
+README completo
+
+Arquitetura
+
+Fluxo do usuário
+
+Arquivos de ambiente
+
+Comandos de execução
+
+Explicação clara de cada parte

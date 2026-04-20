@@ -1,0 +1,143 @@
+PROMPT PARA O REPLIT AGENT — APLICAR PATCHES COMPLETOS
+
+Quero que você execute todas as ações abaixo, passo a passo, criando commits organizados.
+IMPORTANTE: siga exatamente as instruções na ordem.
+
+1. Criar nova branch
+git checkout -b fix/integrations-and-types
+
+2. Corrigir TODOS os erros de TypeScript (LSP), incluindo:
+
+server/storage.ts
+
+server/routes.ts
+
+Todos os erros “string | undefined”
+
+Todos os erros de “rowCount” e “rows”
+
+Adicionar import { QueryResult } from "pg"
+
+Tipar todas as respostas de pool.query como:
+
+const result: QueryResult<any> = await pool.query(sql, params);
+
+
+Sempre usar:
+
+if (!req.params.id) return res.status(400).json({ error: "id obrigatório" });
+
+
+Depois de corrigir tudo, rode:
+
+npx tsc --noEmit
+
+
+Se houver erros restantes, corrija antes de seguir.
+
+Crie commit:
+
+fix: resolve all TypeScript errors in server/storage.ts and server/routes.ts
+
+3. Remover rota duplicada /profile em src/App.tsx
+
+Verifique onde a rota aparece duas vezes.
+
+Mantém somente UMA definição correta.
+
+Commit:
+
+fix: remove duplicate /profile route in App.tsx
+
+4. Integrar Dashboard com backend
+
+Modifique o componente responsável (provavelmente src/pages/Dashboard.jsx ou similar):
+
+Adicionar fetch real:
+fetch('/api/ads/user/me', { credentials: 'include' })
+
+Implementar delete real:
+fetch(`/api/ads/${id}`, { method: 'DELETE', credentials: 'include' })
+
+Remover mock data
+
+Remova completamente qualquer import ou array de dados fake.
+
+Commit:
+
+feat: integrate Dashboard with GET /api/ads/user/me and real delete action
+
+5. Integrar Profile com backend
+
+Arquivo: src/pages/Profile.jsx ou equivalente.
+
+Implementar carregar perfil:
+fetch('/api/users/me', { credentials: 'include' })
+
+Implementar salvar perfil:
+fetch('/api/users/me', {
+  method: 'PUT',
+  credentials: 'include',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(form)
+})
+
+Remover qualquer setTimeout() fake
+
+Elimine funções fictícias.
+
+Commit:
+
+feat: integrate Profile with GET/PUT /api/users/me
+
+6. Integrar Favorites com backend
+
+Arquivo: src/pages/Favorites.jsx ou similar.
+
+Usar API real:
+fetch('/api/favorites', { credentials: 'include' })
+
+
+E para remover:
+
+fetch(`/api/favorites/${adId}`, { method: 'DELETE', credentials: 'include' })
+
+
+Remover mock.
+
+Commit:
+
+feat: integrate Favorites with GET/DELETE /api/favorites
+
+7. Testar tudo
+
+Execute:
+
+npx tsc --noEmit
+npm run build
+
+
+Corrija qualquer erro que aparecer.
+
+Commit final:
+
+chore: finalize fixes after running build and tsc
+
+8. Abrir Pull Request
+git push --set-upstream origin fix/integrations-and-types
+
+
+Crie o PR com o nome:
+
+Fix: TypeScript, Dashboard, Profile and Favorites integrations
+
+
+Descrição:
+
+Correções TS
+
+Integrações Dashboard/Profile/Favorites
+
+Rota duplicada removida
+
+Testado com tsc e npm run build
